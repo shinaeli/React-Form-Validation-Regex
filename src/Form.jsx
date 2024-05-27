@@ -142,6 +142,9 @@ const Form = () => {
           </div>
           <button onClick={handleSubmission} className="form-button" type='button'>SEND</button>
         </form>
+        <footer>
+                <p className="text-[0.85rem] text-black text-center font-light animate-slideInFooter tab:text-[1rem] pc:text-[1rem]">&copy;2024 Copyright | Designed by <a className="text-green-400 font-bold" href="http://omotoshoelisha@gmail.com">Omotosho E. Oluwasina</a>.</p>
+        </footer>
     </main>
   )
 }
